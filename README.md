@@ -2,7 +2,6 @@
 
 ## What is it?
 
-|'''bash
-       npm insatl
-
+'''python
+  pip insatll python
 '''
