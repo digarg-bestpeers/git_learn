@@ -2,6 +2,6 @@
 
 ## What is it?
 
-'''python
+```bash
   pip insatll python
-'''
+```
