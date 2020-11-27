@@ -49,9 +49,13 @@
            python manage.py makemigrations
            python manage.py migrate
 ```
-4. Then start the project directly with following command
+4. Create super user account using below command
 ```python
-              python manage.py runserver
+             python manage.py createsuperuser
+```
+5. Then start the project directly with following command
+```python
+              python manage.py runserver 127.0.0.1:8000
 ```
 
 
