@@ -2,4 +2,7 @@
 
 ## What is it?
 
-$ npm insatl
+|'''bash
+       npm insatl
+
+'''
