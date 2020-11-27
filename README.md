@@ -1,7 +1,10 @@
 # Real Estate Management
 
-## What is it?
+## Create Virtual Environment
 
 ```bash
-  pip insatll python
-```
+      pip install virtualenv
+      virtualenv env_name
+     '''
+
+
