@@ -6,7 +6,7 @@
 1. UI Technology: HTML, CSS, BS, JS
 
 ## Installation Set Up
-* click on [install]("https://pypi.org/project/virtualenv/") to create virtual environment
+* click on [install](https://pypi.org/project/virtualenv/) to create virtual environment
 
 
 
