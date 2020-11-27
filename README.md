@@ -2,4 +2,6 @@
 
 ## What is it?
 
-'''pip install python'''
+'''bash
+       pip install python
+  '''
