@@ -9,13 +9,13 @@
 1. UI Technology: HTML, CSS, BS, JS
 
 ## Installation Set Up
-* click on [install](https://pypi.org/project/virtualenv/) to create virtual environment
-* install python 3.5
+* Click on [install](https://pypi.org/project/virtualenv/) to create virtual environment
+* Install python 3.5
 ```python
             sudo apt-get install python3.5
 ```
-* install requirement.txt for all project dependencies
-* install postgresql database
+* Install requirement.txt for all project dependencies
+* Install postgresql database
 ```batch
             sudo apt-get install postgresql postgresql-contrib
 ```
@@ -29,8 +29,8 @@
 
 ## How to use
 
-1. clone the project
-1. update settings.py file 
+1. Clone the project
+1. Update settings.py file 
 ```python
 # Database Configration
             DATABASES = {
