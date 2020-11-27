@@ -41,12 +41,12 @@
     }
 }
 ```
-1. Use following commands to migrate the table
+3. Use following commands to migrate the table
 ```python
            python manage.py makemigrations
            python manage.py migrate
 ```
-1. Then start the project directly with following command
+4. Then start the project directly with following command
 ```python
               python manage.py runserver
 ```
