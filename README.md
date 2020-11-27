@@ -5,6 +5,18 @@
 1. Framework: Django = 2.2.11
 1. UI Technology: HTML, CSS, BS, JS
 
+## Installation Set Up
+* click on [install]("https://pypi.org/project/virtualenv/") to create virtual environment
+
+
+
+
+
+
+
+
+
+
 ## Create Database
 
 * sudo -u postgres psql
