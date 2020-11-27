@@ -3,5 +3,5 @@
 ## What is it?
 
 '''bash
-       pip install python
-  '''
+       npm install
+'''
