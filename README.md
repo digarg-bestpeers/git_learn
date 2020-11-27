@@ -2,6 +2,4 @@
 
 ## What is it?
 
-'''bash
-       npm install
-'''
+$ npm insatl
