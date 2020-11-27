@@ -33,6 +33,13 @@
 * CREATE DATABASE real_estatedb;
 * \l
 * \q
+
+## Instruction
+
+* clone the project
+* set Postgresql Database settings in setting.py
+
+```   a
 ```
 
 
