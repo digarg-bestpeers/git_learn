@@ -1,7 +1,7 @@
 # Real Estate Management
 
 ## Feature
-1. _Property Module_: reflect all available property
+1. __Property Module__: reflect all available property
 
 ## Technology Stack
 1. Python environment: python 3.5.2
