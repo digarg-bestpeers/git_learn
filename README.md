@@ -7,15 +7,15 @@
 
 ## Installation Set Up
 * click on [install](https://pypi.org/project/virtualenv/) to create virtual environment
-
-
-
-
-
-
-
-
-
+* install python 3.5
+```python
+            sudo apt-get install python3.5
+```
+* install requirement.txt for all project dependencies
+* install postgresql database
+```batch
+            sudo apt-get install postgresql postgresql-contrib
+```
 
 ## Create Database
 
@@ -24,11 +24,12 @@
 * \l
 * \q
 
-## Instruction
+## How to use
 
-* clone the project
-* set Postgresql Database settings in setting.py
+1. clone the project
+1. update settings.py file 
 ```python
+# Database Configration
             DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -40,16 +41,14 @@
     }
 }
 ```
-* do migration
+
+1. Use following commands to migrate the table
 ```python
            python manage.py makemigrations
            python manage.py migrate
 ```
-* create superuser
-```python
-         python manage.py createsuperuser
-```
-* access project
+
+1. Then start the project directly with following command
 ```python
               python manage.py runserver
 ```
