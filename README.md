@@ -38,8 +38,31 @@
 
 * clone the project
 * set Postgresql Database settings in setting.py
-
-```   a
+```python
+            DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'real_estatedb',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
 ```
+* do migration
+```python
+           python manage.py makemigrations
+           python manage.py migrate
+```
+* create superuser
+```python
+         python manage.py createsuperuser
+```
+* access project
+```python
+              python manage.py runserver
+```
+
 
 
